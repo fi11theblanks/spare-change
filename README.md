@@ -3,22 +3,15 @@
 
 A Ruby-based generative PDF system for producing printed artifacts that behave like unstable systems rather than static documents.
 
-This is not a layout engine.
 This is a signal generator that happens to print.
 
 ---
 
 ## ✦ MANIFESTO
 
-We reject static design.
-We reject final form.
-We reject the idea that a page must be stable, readable, or resolved.
-
-This system treats code as a printing press for unstable thought.
-Each output is a trace of a system thinking out loud.
-
-We do not design pages.
-We expose behavior.
+Reject static design.
+Reject final form.
+Reject the idea that a page must be stable, readable, or resolved.
 
 ---
 
@@ -56,22 +49,15 @@ end
 ```
 
 The system must never be nil.
-Collapse begins when state is undefined.
 
 ---
 
 ## ✦ RENDERING
 
-Rendering is not drawing.
-Rendering is transcription of internal state into visible instability.
-
 Each frame is generated through:
 
 - deterministic structure (phase)
 - controlled randomness (variation inside limits)
-
-Nothing is fixed.
-Everything is conditional.
 
 ---
 
@@ -86,7 +72,7 @@ The system speaks in:
 
 ---
 
-## ✦ AESTHETIC MODES (FULL SYSTEM)
+## ✦ MODES (FULL SYSTEM)
 
 This system can operate in three overlapping modes:
 
@@ -221,6 +207,5 @@ pdf.stroke
 
 ## ✦ END
 
-This is no longer a document.
-It is a system describing its own output conditions.
+This is no longer a document but a system describing its own output conditions.
 
